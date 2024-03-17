@@ -1,2 +1,2 @@
-# CZ4003-Computer-Vision
-Course repo for NTU course CZ4003 Computer Vision
+# COMP-7807
+Course repo for HKU COMP 7807
