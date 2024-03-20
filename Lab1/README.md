@@ -67,7 +67,7 @@ h2 is more effective inremoving the noise. But it makes the image more blurred.
 
 ###e. Repeat step (c) above. Are the filters better at handling Gaussian noise or speckle noise?
 
-	P = imread('resource/ntusp.jpg');
+	P = imread('resource/building-sp.jpg');
 	P1 = imfilter(P,h1);
 	P2 = imfilter(P,h2);
 ![](http://i.imgur.com/aoEfXH9.jpg)
@@ -132,7 +132,7 @@ I iterate through the pixels again and set the threshold=3*10^9
 ![](http://i.imgur.com/K0kZEVu.jpg)
 
 And this time most of the parallel lines are removed. And redo this whole process can further remove the undesired lines as well.
-###f. Download the image 'primate-caged.jpg' from edveNTUre which shows a primate behind a fence. Can you attempt to “free” the primate by filtering out the fence? You are not likely to achieve a clean result but see how well you can do.
+###f. Download the image 'primate-caged.jpg' which shows a primate behind a fence. Can you attempt to “free” the primate by filtering out the fence? You are not likely to achieve a clean result but see how well you can do.
 ![](http://i.imgur.com/wyxGOy2.jpg)
 
 	F(4:8, 245:249)=0;
