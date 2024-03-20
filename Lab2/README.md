@@ -1,7 +1,7 @@
 # <center>Report</center>
 ## 3.1 Edge Detection
-### a) Download 'macritchie.jpg' from edveNTUre and convert the image to grayscale. Display the image.
-	P = imread('resources/maccropped.jpg');
+### a) Download 'macritchie.jpg' and convert the image to grayscale. Display the image.
+	P = imread('maccropped.jpg');
 	P = rgb2gray(P);
 	imshow(P)
 
