@@ -67,7 +67,7 @@ h2 is more effective inremoving the noise. But it makes the image more blurred.
 
 ###e. Repeat step (c) above. Are the filters better at handling Gaussian noise or speckle noise?
 
-	P = imread('resource/building-sp.jpg');
+	P = imread('building-sp.jpg');
 	P1 = imfilter(P,h1);
 	P2 = imfilter(P,h2);
 ![](http://i.imgur.com/aoEfXH9.jpg)
